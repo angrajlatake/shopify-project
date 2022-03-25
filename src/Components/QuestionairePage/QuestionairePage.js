@@ -1,4 +1,5 @@
 import './QuestionairePage.scss';
+import Footer from '../Footer/Footer';
 
 function QuestionairePage() {
   return (
@@ -85,6 +86,7 @@ function QuestionairePage() {
             <button className='continue__button'>Continue</button>
           </div>
         </form>
+        <Footer/>
     </div>
   );
 }

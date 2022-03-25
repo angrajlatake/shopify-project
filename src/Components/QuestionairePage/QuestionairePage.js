@@ -1,9 +1,9 @@
 import './QuestionairePage.scss';
-import Footer from '../Footer/Footer';
+import {Link} from 'react-router-dom'
 
 function QuestionairePage() {
   return (
-    <div className="App">
+    <div className="page">
         <div className='start'>
           <h1 className='start__title'>Let's Start...</h1>
           <p className='start__tell'>Tell us about your business. We'll use this information to help you get started.</p>
@@ -83,10 +83,9 @@ function QuestionairePage() {
           </label>
           </div>
           <div className='continue'>
-            <button className='continue__button'>Continue</button>
+            <Link to='/module'><button className='continue__button'>Continue</button></Link>
           </div>
         </form>
-        <Footer/>
     </div>
   );
 }

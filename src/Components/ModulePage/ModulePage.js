@@ -33,21 +33,21 @@ export default function ModulePage() {
                 <div className = "module-page__article-cta">
                     <h2 className = "module-page__article-header">Articles</h2>
                     <div className = "module-page__article-section">
-                        <img src = {computerWoman} className = "module-page__article-photo" alt = "Woman working on her business finances" />
+                        <a href="https://www.shopify.com/blog/business-financing?itcat=capital&itterm=capital-resources-blog"  target = "_blank" rel="noreferrer noopener"><img src = {computerWoman} className = "module-page__article-photo" alt = "Woman working on her business finances" /></a>
                         <div className = "module-page__article-copywrap">
                             <h3 className = "module-page__article-title">The Entrepreneur's Guide to Small Business Finance</h3>
                             <p className = "module-page__article-author">By Jason Moraz</p>
                         </div>
                     </div>
                     <div className = "module-page__article-section">
-                        <img src = {bookMan} className = "module-page__article-photo" alt = "Man reading on how to secure startup financing" />
+                        <a href="https://help.shopify.com/en/manual/finances/shopify-capital?itcat=capital&itterm=capital-resources-help-docs"  target = "_blank" rel="noreferrer noopener"><img src = {bookMan} className = "module-page__article-photo" alt = "Man reading on how to secure startup financing" /></a>
                         <div className = "module-page__article-copywrap">
                             <h3 className = "module-page__article-title">Small Business Grants: How to Secure Financing for your Startup</h3>
                             <p className = "module-page__article-author">By Jason Moraz</p>
                         </div>
                     </div>
                     <div className = "module-page__article-section">
-                        <img src = {chatPic} className = "module-page__article-photo" alt = "q and a" />
+                        <a href="https://help.shopify.com/en/manual/your-account/shopify-capital/shopify-capital-faq?itcat=capital&itterm=capital-resources-faq"  target = "_blank" rel="noreferrer noopener"><img src = {chatPic} className = "module-page__article-photo" alt = "q and a" /></a>
                         <div className = "module-page__article-copywrap">
                             <h3 className = "module-page__article-title">How to get a Small Business Loan and What to Know Before Applying</h3>
                             <p className = "module-page__article-author">By Jason Moraz</p>

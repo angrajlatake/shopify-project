@@ -6,24 +6,25 @@ import marketing from '../../assets/marketing_major.svg'
 import tax from '../../assets/timeline-attachment_major.svg'
 import finance from '../../assets/billing-statement-dollar_major.svg'
 import hamburger from '../../assets/hamburger.svg';
+import {Link} from 'react-router-dom'
 
 
 function DashBoard() {
     return (  
         <div className='dash'>
-            <div className="header">
+            <div className="header-dash">
                 <img className='header__img' src={hamburger} alt="hamburger" />
-                <input className='header__search' type="text" placeholder='Search'/>
-                <p className='header__user'>JS</p>
+                <input className='header-dash__search' type="text" placeholder='Search'/>
+                <p className='header-dash__user'>JS</p>
             </div>
             <div className="container">
                 <div className='dash__title'>
-                    <h1>Welcome to Academify, Joe</h1>
+                    <h1>Welcome to ShopLab, Joe</h1>
                 </div>
                 <div className="card">
                     <h2> Do you know where to start?</h2>
                     <p>Start the survey to recommendations.</p>
-                    <button className='card__button button'> Quick start</button>
+                    <Link to='/questionnaire'><button className='card__button button'> Quick start</button></Link>
                 </div>
             </div>
             <div className='space'></div>

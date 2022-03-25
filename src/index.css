@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  // Copied from Shopify website
-  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI,
-    Roboto, Helvetica Neue, sans-serif;
+  /* Copied from Shopify website*/
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
 
   /* Make type rendering look crisper */
   -webkit-font-smoothing: antialiased;

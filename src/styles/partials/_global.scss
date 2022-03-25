@@ -1,0 +1,45 @@
+@use './colors.scss' as *;
+body {
+
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.caption {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.button {
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 500;
+  background-color: $primary-color;
+  color: white;
+}
